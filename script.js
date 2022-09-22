@@ -18,7 +18,7 @@ function spela(){
     
 
 
-  randomNr = Math.floor(Math.random() *4);
+  randomNr = Math.floor(Math.random() *37);
     
   document.getElementById("nummer").innerHTML = "Vinnande nummer är "+randomNr 
 
