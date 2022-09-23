@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Navbar</title>
@@ -13,23 +13,24 @@
                 <li><a href="info.html">Info</a></a></li>
                 <li><a href="spela.html">Roulette</a></a></li>
                 <li><a href="card.html">High Card</a></a></li>
-              
             </ul>
         </nav>
-        
     </header>
     <body>
-       
-
-<p>
-    Spel 1: <input type="text" id="spel1" value="">
-    Spel 2: <input type="text" id="spel2" value="">
-    Spel 3: <input type="text" id="spel3" value="">
-</p>
-
-<button onclick="spela()">Spela</button>
-<h1 id="nummer"></h1>
-<h2 id="resultat"></h2>
-<script src="script.js"></script>
+        <div>
+            <button id="starta" onclick="starta()">Starta</button> <!--Starta nytt spel med funktion starta-->  
+            <input type="button" id="tryAgain" value="Försök igen" onclick="location.reload();"> <!--Ladda om sidan-->  
+        </div>
+        <div id="spelet">
+            <div>Spel 1: <input type="text" id="spel1" value=""></div>
+            <div>Spel 2: <input type="text" id="spel2" value=""></div>
+            <div>Spel 3: <input type="text" id="spel3" value=""></div>
+            <div>
+                <button onclick="spela()">Spela</button> <!--Kör funktion spela()--> 
+                <div><h1 id="nummer"></h1></div>
+                <div><h2 id="resultat"></h2></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>

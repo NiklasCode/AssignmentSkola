@@ -1,3 +1,4 @@
+
 header{
     width: 100%;
     height: 70px;
@@ -49,6 +50,9 @@ header{
      margin-top: -20px;
      position: relative;
  }
+ div{
+     padding: 20px;
+ }
 
  img{
     margin-top: 20px;
@@ -78,4 +82,10 @@ header{
     
     font-size: 1.2vw;
     
+}
+#spelet{
+    display: none; /*DÃ¶ljer innehÃ¥ll i div som har id="spelet" frÃ¥n start */
+}
+#tryAgain{
+    display: none; /*DÃ¶ljer innehÃ¥ll i div som har id="tryAgain" frÃ¥n start */
 }
