@@ -84,8 +84,9 @@ header{
     
 }
 #spelet{
-    display: none; /*DÃ¶ljer innehÃ¥ll i div som har id="spelet" frÃ¥n start */
+    display: none; 
 }
 #tryAgain{
-    display: none; /*DÃ¶ljer innehÃ¥ll i div som har id="tryAgain" frÃ¥n start */
+    display: none; 
+    
 }
