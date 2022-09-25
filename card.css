@@ -1,0 +1,107 @@
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #282828;
+ }
+ 
+ h1{
+     position: absolute;
+     padding: 3px;
+     float: left;
+     margin-left: 2%;
+     margin-top: 10px;
+     font-family: 'Alfa Slab One', cursive;
+     color: #39ca74;
+ }
+ 
+ span{
+     color: #ffffff
+ }
+ 
+ ul{
+     width: auto;
+     float: right;
+     margin-top: 8px;
+ }
+ 
+ li{
+     display: inline-block;
+     padding: 15px 30px
+ }
+ 
+ a{
+     text-align: center;
+     color: #ffffff;
+     text-decoration: none;
+     font-family: 'open sans', sans-serif;
+     font-size: 1.2vw;
+ }
+ 
+ 
+ 
+ a:hover{
+     color: #f0c330;
+     transition: 0.5s;
+ }
+ 
+ img{
+     width: 100%;
+     margin-top: -20px;
+     position: relative;
+ }
+ div{
+     padding: 20px;
+ }
+
+ img{
+    margin-top: 20px;
+ }
+
+ #p1 {
+    text-align: center;
+}
+ h2{
+    margin-top: 60px;
+ }
+ body{
+    background-color: #4d6858;
+}
+.färg{
+    color:#f0c330
+}
+td:nth-child(1)
+{
+  background-color: rgb(11, 69, 179);
+  
+}
+
+td:nth-child(2)
+{
+  background-color: orange;
+  
+}
+td:nth-child(3)
+{
+  background-color: rgb(11, 69, 179);
+  
+}
+td:nth-child(4)
+{
+  background-color: orange;
+  
+}
+td:nth-child(5)
+{
+  background-color: rgb(11, 69, 179);
+  
+}
+td:nth-child(6)
+{
+  background-color: red;
+  
+}
+td:nth-child(7)
+{
+  background-color: red;
+  
+}
